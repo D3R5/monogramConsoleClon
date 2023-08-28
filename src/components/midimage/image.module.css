@@ -1,0 +1,25 @@
+.midImage {
+    background-image: url(../../assets/centraImg/mid.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    bottom: 0;
+    right: 0;
+    top: 110rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .midImage .titles {
+    text-align: center;
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 0;
+    right: 0;
+    color: #1a2456;
+  }
