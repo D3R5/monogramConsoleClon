@@ -12,3 +12,9 @@
       margin-top: 36rem;
     }
   }
+  @media screen and (max-width: 1000px) {  
+    .productGrid {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 43rem;
+    }
+}

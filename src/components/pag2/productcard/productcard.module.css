@@ -50,7 +50,6 @@
   align-items: center;
   height: 100%; 
   margin-top: -150px;
-  
 }
 
 .holaRectangle {
@@ -83,3 +82,31 @@
   
 }
 
+
+ /*! --- MEDIA QUERIES (MEDIUM) --- */
+ @media screen and (max-width: 1000px) {
+  .productImage {
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 80px;  
+  }
+
+  .imageContainer {
+    width: 20rem;
+  }
+
+  .holaRectangle {
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    right: 16px;
+    background-color: #FF8D6B;
+    color: #212529;
+    font-weight: bold;
+    text-align: center;
+    font-size: 75%;
+    padding: 7.5px 15px;
+  }
+
+
+}
