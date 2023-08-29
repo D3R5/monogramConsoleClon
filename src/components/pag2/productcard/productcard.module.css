@@ -18,8 +18,8 @@
   color: #1A2456;
   float: left;
 }
+
 .right2 {
-  
   font-size: 18.75px;
   float: left;
   margin: 10px 0px 7.5px;
@@ -38,7 +38,6 @@
 }
 
 .left {
-  
   float: right;
 }
 
@@ -99,6 +98,29 @@
     top: 100px;
     right: 16px;
   }
+  .right2 {
+    background-color: green;
+    font-size: 17.5;
+    
+  }
 
+  .price {
+    display: flex;
+    background-color: blue;
+    right: 200px;
+
+  }
+
+  .left {
+    background-color: yellow;
+    float: none;
+    right: -20px;
+  }
+
+  .description {
+    background-color: red;
+
+    font-size: 12.6px;
+  }
 
 }
