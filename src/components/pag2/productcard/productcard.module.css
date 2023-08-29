@@ -99,28 +99,28 @@
     right: 16px;
   }
   .right2 {
-    background-color: green;
     font-size: 17.5;
     
   }
 
   .price {
     display: flex;
-    background-color: blue;
     right: 200px;
 
   }
 
   .left {
-    background-color: yellow;
     float: none;
     right: -20px;
   }
 
   .description {
-    background-color: red;
-
     font-size: 12.6px;
+  }
+
+  .shopNowText {
+    display: none;
+
   }
 
 }
