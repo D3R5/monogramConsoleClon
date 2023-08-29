@@ -29,6 +29,7 @@
     /*! --- MEDIA QUERIES (MEDIUM) --- */
     @media screen and (max-width: 1000px) {  
       .midImage {
+        height: 50%;
         top: 120rem;
       }
   }
